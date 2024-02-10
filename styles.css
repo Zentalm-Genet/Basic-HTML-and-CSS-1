@@ -1,0 +1,297 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(zz.jpg );
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+#header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.header-container{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    font-size: 32px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 0;
+}
+.logo:hover{
+    background-color: #ffd9004e;
+    cursor: pointer;
+}
+
+
+div ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+div ul li {
+    display: inline;
+    margin-left: 20px;
+}
+div ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    transition: 0.4s ease;
+}
+
+div ul li a:hover {
+    color: #666666;
+    
+}
+
+
+
+
+
+
+#about-container{
+    margin: 60px 40px;
+    
+}
+#about-container h1{
+margin-bottom: 30px;
+font-size: 40px;
+}
+
+#about{
+    margin: 20px;
+   text-align: left;
+    justify-content: left;
+    width: 50%;
+    height: auto;
+    padding: 10px 5px;
+
+}
+
+#about p{
+    padding-top: 10px;
+    margin-bottom: 50px;
+}
+
+.search img, .cart img{
+    width: 14px;
+    height: auto;
+    
+}
+.search input{
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    margin-top: 5px;
+    margin-right: 10px;
+    margin-left: 50px;
+    background-color: hsl(0, 0%, 27%);
+    color: #fff;
+
+}
+.search input:hover{
+    border: 1px solid green;
+}
+
+input::placeholder {
+    font-weight: bold;
+    opacity: 0.5;
+    font-size: 18px;
+    color: green;
+  }
+  
+.search img:hover, .cart img:hover{
+    color: #666666;
+    opacity: 0.8;
+}
+
+
+
+.feature-books{
+    margin-top: 40px;
+    margin-bottom: 30px;
+    width: 45%;
+    height: auto;
+    text-align: center;
+    padding: 10px 40px;
+}
+.feature-books h2{
+    padding-bottom: 10px;
+    text-align: left;
+}
+.book-table{
+    border-collapse: collapse;
+   width: 100%;
+   text-align: left;
+}
+.book-table th, .book-table td {
+    padding: 8px;
+    border: 2px solid rgba(0, 0, 0, 0.055);
+    margin-top: 10px;
+}
+
+.book-table th {
+    text-align: left;
+}
+tr:nth-child(even) {
+    background-color: #dddddd45;
+  }
+.book-excerpts{
+    width: 48%;
+    height: auto;
+    padding-left: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.book-trailers{
+    width: 50%;
+    height: auto;
+    padding: 20px;
+}
+.book-trailers h2{
+    padding-bottom: 10px;
+    padding-right: 40px;
+}
+.video video source{
+    width: 100%;
+    height: auto;
+}
+audio, video {
+    width: 50%;
+    max-width: 300px;
+    display: inline;
+    margin: 0 auto;
+    margin-top: 20px;
+    text-align: center;
+    justify-content: center;
+}
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+
+
+.login-form {
+    height: 400px; 
+    width: 400px; 
+    position: absolute; 
+   
+    z-index: 1; 
+    top: 15%; /* Stay at the top */
+    right: 4%;
+   
+    overflow-x: hidden; 
+    padding-top: 30px;
+    text-align: left;
+    background-color: #333333;
+    border: 3px solid rgba(255, 0, 0, 0.416);
+    border-radius: 30px;
+    color: #f1f1f1;
+    box-shadow: 20px 20px rgba(240, 128, 128, 0.786);
+  }
+
+  .login-form h2{
+    text-align: center;
+  }
+  
+  
+  
+  
+  
+ 
+  
+  form {
+    border: 3px solid #f1f1f1;
+  }
+
+
+
+  /* Full-width inputs */
+.container input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+
+  label b{
+    font-size: 27px;
+  }
+
+.container input{
+    background-color: rgba(255, 255, 255, 0.822);
+}
+
+  button {
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+
+/* Add a hover effect for buttons */
+button:hover {
+    opacity: 0.8;
+  }
+
+  /* Extra style for the cancel button (red) */
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+  }
+
+
+/* Center the avatar image inside this container */
+.imgcontainer {
+    width: 250px;
+    height: auto;
+    text-align: center;
+    margin: 24px 0 12px 0;
+  }
+  
+  /* Avatar image */
+  img.avatar {
+    margin-left: 50%;
+    width: 40%;
+    border-radius: 50%;
+  }
+  
+  /* Add padding to containers */
+  .container {
+    padding: 16px;
+  }
+  
+  /* The "Forgot password" text */
+  span.psw {
+    float: right;
+    padding-top: 16px;
+  }
+  
+ 
+  

@@ -1,0 +1,145 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>book Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header id="header">
+        <div class="header-container">
+            <h2 class = "logo">MyBooks.</h2>
+        <div>
+            <ul>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Categories </a></li>
+                <li><a href="#">Shope</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contact </a></li>
+                <li class="search">
+                    <input type="text" placeholder="search..." class="search-input">
+                    <a href="#">
+                        <img class="img-search" src="search-icon.png" /></a>
+                  </li>
+                  <li class="cart">
+                    <a href="#"><img src="cart.png" /></a>
+                  </li>
+                  
+            </ul>
+        </div>
+        </div>
+    </header>
+   
+    
+       
+     <form>
+
+        <div class="login-form">
+            <h2>Login Form</h2>
+            <div class="imgcontainer">
+                <img src="img_avatar2.png" alt="Avatar" class="avatar">
+              </div>
+           <div class="container">
+            <label for="uname"><b>User Name</b></label>
+            <input type="text" placeholder=" Enter UserName" name = "uname" required>
+            <label for="psw"><b>Password</b></label>
+            <input type="password" placeholder="Enter Password" name = "psw" required>
+            <button type="submit">Login</button>
+            <label>
+                <input type="checkbox" checked ="checked" name = "remember"> Remember Me
+            </label>
+           </div>
+           <div class="container" style="background-color: #f1f1f1;">
+            <button type="button " class="cancelbtn">Cancel</button>
+            <span class="psw">Forgot <a href="#">Password</a></span>
+           </div>
+          </div>
+
+
+     </form>
+   
+
+
+    <main id="about-container">
+        <section id="about">
+            <h1>
+                Welcome to Our  <br> Book Store...
+            </h1>
+             <p>21 Books From 2024 to put on your back to school reading list</p>
+        </section>
+        
+        <section class="feature-books">
+            <h2>Featured Books</h2>
+            <table class="book-table">
+                <tr>
+                    <th>Title</th>
+                    <th>Author</th>
+                    <th>Genre</th>
+                    <th>Publication Date</th>
+                    <th>Rating</th>
+                </tr>
+                <tr>
+                    <td>Don Quixote</td>
+                    <td>Miguel de Cervantes</td>
+                    <td>Poetry</td>
+                    <td>2022</td>
+                    <td>★★★★★</td>
+                </tr>
+                <tr>
+                    <td>Treasure Island</td>
+                    <td>Robert Louis Stevenson</td>
+                    <td>Folklore</td>
+                    <td>1999</td>
+                    <td>★★★★</td>
+                </tr>
+                <tr>
+                    <td>ane Eyre </td>
+                    <td>Charlotte Brontë</td>
+                    <td>Classic</td>
+                    <td>2008</td>
+                    <td>★★★★★</td>
+                </tr>
+                <tr>
+                    <td>Gulliver's Travels</td>
+                    <td>Jonathan Swift</td>
+                    <td>Drama</td>
+                    <td>2002</td>
+                    <td>★★★★</td>
+                </tr>
+                <tr>
+                    <td>The Great Gatsby</td>
+                    <td>F. Scott Fitzgerald</td>
+                    <td>Fiction</td>
+                    <td>1987</td>
+                    <td>★★★★</td>
+                </tr>
+            </table>
+        </section>
+        <section class="book-excerpts">
+            <h2>Book Excerpts</h2>
+            <audio controls>
+                <source src="audio.mp3" type="audio/mpeg">
+            </audio>
+        </section>
+        <section class="book-trailers">
+            <h2>Book Trailers</h2>
+            
+               <div class="video">
+                <video controls autoplay width="400px" height="350px">
+                    <source src="video.mp4" type="video/mp4">
+                   </video>
+               </div>
+                
+               </div>
+        </section>
+    
+    </main>
+    <footer>
+        <p>&copy; 2024 Book Website</p>
+    </footer>
+</body>
+</html>
